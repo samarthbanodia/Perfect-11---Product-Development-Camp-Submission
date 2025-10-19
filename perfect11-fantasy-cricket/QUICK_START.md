@@ -41,11 +41,6 @@ python app.py
 
 ✅ Backend should now be running on `http://localhost:5000`
 
-**Test it**:
-```bash
-curl http://localhost:5000/health
-# Should return: {"status": "healthy"}
-```
 
 ---
 
@@ -66,10 +61,6 @@ npm run dev
 
 ✅ Frontend should now be running on `http://localhost:3000`
 
-**Test it**: Open browser and go to `http://localhost:3000`
-
----
-
 ## 🎮 Step 4: Use the App
 
 1. **Open**: http://localhost:3000 in your browser
@@ -80,91 +71,5 @@ npm run dev
 
 ---
 
-## 🔍 Step 5: Explore EDA (Optional)
 
-```bash
-# Install Jupyter
-pip install jupyter
 
-# Start Jupyter
-jupyter notebook
-
-# Navigate to eda/ folder
-# Open: Complete_IPL_Analysis_With_Real_Training.ipynb
-```
-
----
-
-## 🐛 Troubleshooting
-
-### Backend Issues
-
-**Error**: "Module not found: flask"
-```bash
-# Make sure virtual environment is activated
-pip install -r requirements.txt
-```
-
-**Error**: "Port 5000 already in use"
-```bash
-# Kill existing process or change port in app.py
-```
-
-### Frontend Issues
-
-**Error**: "Module not found"
-```bash
-cd frontend
-rm -rf node_modules package-lock.json
-npm install
-```
-
-**Error**: "Port 3000 already in use"
-```bash
-# Change port in package.json or kill existing process
-```
-
----
-
-## 📚 Next Steps
-
-- Read full [README.md](README.md)
-- Explore [EDA notebooks](eda/README.md)
-- Check [API documentation](docs/API.md)
-- Review [Architecture](docs/ARCHITECTURE.md)
-
----
-
-## 🎯 Common Tasks
-
-### Run Backend Tests
-```bash
-cd backend
-python test_backend.py
-```
-
-### Build Frontend for Production
-```bash
-cd frontend
-npm run build
-npm start
-```
-
-### View EDA Notebooks
-```bash
-jupyter notebook eda/
-```
-
----
-
-## 💡 Tips
-
-- Keep backend and frontend running in separate terminals
-- Backend changes require restart
-- Frontend has hot-reload (no restart needed)
-- Check browser console for errors
-- Use `ctrl+c` to stop servers
-
----
-
-**Happy Coding! 🏏⚾**
