@@ -1,7 +1,7 @@
 
 DRIVE LINK FOR VIDEO DEMO - https://drive.google.com/file/d/1NzrSpVE3qypixtXrGV2yN_9DKYbNRwOY/view?usp=sharing
 
-SEE QUICKSTART.md on how to run locally
+SEE QUICK_START.md on how to run locally
 
 ---
 
