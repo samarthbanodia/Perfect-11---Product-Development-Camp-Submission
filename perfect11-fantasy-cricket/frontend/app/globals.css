@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: 250 20% 10%;
+  --foreground: 0 0% 100%;
+  --card: 250 25% 15%;
+  --card-foreground: 0 0% 100%;
+  --popover: 250 30% 12%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 270 70% 60%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 260 50% 50%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 250 20% 25%;
+  --muted-foreground: 0 0% 70%;
+  --accent: 280 70% 65%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 250 20% 30%;
+  --input: 250 20% 25%;
+  --ring: 270 70% 60%;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: oklch(var(--background));
+  --color-foreground: oklch(var(--foreground));
+  --color-card: oklch(var(--card));
+  --color-card-foreground: oklch(var(--card-foreground));
+  --color-popover: oklch(var(--popover));
+  --color-popover-foreground: oklch(var(--popover-foreground));
+  --color-primary: oklch(var(--primary));
+  --color-primary-foreground: oklch(var(--primary-foreground));
+  --color-secondary: oklch(var(--secondary));
+  --color-secondary-foreground: oklch(var(--secondary-foreground));
+  --color-muted: oklch(var(--muted));
+  --color-muted-foreground: oklch(var(--muted-foreground));
+  --color-accent: oklch(var(--accent));
+  --color-accent-foreground: oklch(var(--accent-foreground));
+  --color-destructive: oklch(var(--destructive));
+  --color-destructive-foreground: oklch(var(--destructive-foreground));
+  --color-border: oklch(var(--border));
+  --color-input: oklch(var(--input));
+  --color-ring: oklch(var(--ring));
+  --radius: var(--radius);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: linear-gradient(135deg, #1a0b2e 0%, #2d1655 50%, #3d1d6f 100%);
+  min-height: 100vh;
+  color: oklch(var(--foreground));
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Cricket field animations */
+@keyframes cricket-ball-spin {
+  0% { transform: rotate(0deg) translateX(0); }
+  100% { transform: rotate(360deg) translateX(0); }
+}
+
+@keyframes field-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.6); }
+}
+
+.cricket-ball-spin {
+  animation: cricket-ball-spin 2s linear infinite;
+}
+
+.field-glow {
+  animation: field-glow 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: oklch(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(var(--primary));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(var(--accent));
+}

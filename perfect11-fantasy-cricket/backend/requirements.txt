@@ -1,0 +1,19 @@
+# Core Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+
+# ML & Prediction
+scikit-learn==1.3.2
+
+# Explainability
+shap==0.43.0
+
+# Optimization (for constraints solver)
+pulp==2.7.0
+
+# Utilities
+python-dateutil==2.8.2
