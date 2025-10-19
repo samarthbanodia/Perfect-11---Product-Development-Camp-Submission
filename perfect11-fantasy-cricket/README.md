@@ -1,6 +1,8 @@
 
 DRIVE LINK FOR VIDEO DEMO - https://drive.google.com/file/d/1NzrSpVE3qypixtXrGV2yN_9DKYbNRwOY/view?usp=sharing
 
+APIs/CONFIGS FOR .env - https://docs.google.com/document/d/1uGqM4uTYZcQt667OERDFL80CDR_DeFaoAtdDGIdA9sA/edit?usp=sharing
+
 SEE QUICK_START.md on how to run locally
 
 ---
