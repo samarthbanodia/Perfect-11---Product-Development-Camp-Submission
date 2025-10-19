@@ -1,20 +1,7 @@
-# Perfect 11 - IPL Fantasy Cricket Prediction Platform
 
-<div align="center">
+DRIVE LINK FOR VIDEO DEMO - https://drive.google.com/file/d/1NzrSpVE3qypixtXrGV2yN_9DKYbNRwOY/view?usp=sharing
 
-![Perfect 11 Logo](frontend/public/perfect_11_logo.png)
-
-**AI-Powered Fantasy Cricket Team Selection for Dream11**
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Next.js](https://img.shields.io/badge/Next.js-15.1-black.svg)](https://nextjs.org)
-[![Flask](https://img.shields.io/badge/Flask-3.0-green.svg)](https://flask.palletsprojects.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-[Features](#features) • [Tech Stack](#tech-stack) • [Installation](#installation) • [Usage](#usage) • [Architecture](#architecture) • [EDA](#eda-analysis)
-
-</div>
+SEE QUICKSTART.md on how to run locally
 
 ---
 
